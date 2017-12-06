@@ -8,6 +8,8 @@ function start () {
   // when you mouse over it.
   one()
   two()
+  three()
+  four()
   // Your turn! Create a new function called `two`, then call it from here.
 }
 
@@ -42,4 +44,8 @@ function makeBlue (evt) {
 
 function makeWhite (evt) {
   evt.target.style.backgroundColor = 'white'
+}
+
+function makeOrange (evt) {
+  evt.target.style.backgroundColor = "orange"
 }
