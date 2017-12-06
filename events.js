@@ -29,7 +29,7 @@ function two () {
 
   var two = document.getElementById('two')
 
-  two.addEventListener('mouseenter', makeGreen)
+  two.addEventListener('mouseenter', makeOrange)
 
   two.addEventListener('mouseleave', makeWhite)
 
@@ -41,7 +41,7 @@ function three () {
 
   three.addEventListener('mouseenter', makeGreen)
 
-  three.addEventListener('mouseleave', makeBlue)
+  three.addEventListener('mouseleave', makeOrange)
 }
 
 function four () {
